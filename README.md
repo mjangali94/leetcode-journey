@@ -7,3 +7,6 @@ This repository contains my personal collection of **LeetCode solutions**, writt
 - Prepare for **senior-level Java backend interviews**  
 - Build **daily consistency**  
 - Track my **progress publicly**
+
+![Java](https://img.shields.io/badge/Java-17-orange)
+![Python](https://img.shields.io/badge/Python-3.10-blue)
