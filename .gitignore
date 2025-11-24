@@ -1,0 +1,28 @@
+# Java
+*.class
+*.jar
+*.war
+*.ear
+*.iml
+*.log
+*.idea/
+target/
+out/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+venv/
+
+# MacOS
+.DS_Store
+
+# VS Code
+.vscode/
+
+# General
+*.tmp
+*.swp
