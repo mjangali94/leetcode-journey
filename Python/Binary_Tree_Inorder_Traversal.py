@@ -1,6 +1,5 @@
 # Problem: Binary Tree Inorder Traversal
 # LeetCode URL: https://leetcode.com/problems/binary-tree-inorder-traversal
-# Difficulty: Easy
 # Description: Given the root of a binary tree, return the inorder traversal of its nodes' values.
 
 # Definition for a binary tree node.

@@ -1,6 +1,5 @@
 # Problem: Convert Sorted Array to Binary Search Tree
 # LeetCode URL: https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/
-# Difficulty: Easy
 # Description: Given an integer array nums where the elements are sorted in ascending order, convert it to a height-balanced binary search tree.
 
 # Definition for a binary tree node.

@@ -1,6 +1,5 @@
 # Problem: Palindrome Number
 # LeetCode URL: https://leetcode.com/problems/palindrome-number/
-# Difficulty: Easy
 # Description: Given an integer x, return true if x is a palindrome, and false otherwise.
 
 
