@@ -1,6 +1,6 @@
 # Problem: length of last word
 # LeetCode URL: https://leetcode.com/problems/length-of-last-word
-# Description: Write a function to find the longest common prefix string amongst an array of strings.
+# Description: Given a string s consisting of words and spaces, return the length of the last word in the string.
 
 
 class Solution:

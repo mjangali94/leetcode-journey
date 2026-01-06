@@ -25,35 +25,3 @@ class Solution:
         head.right = self.buildTree(inorder[index + 1:], postorder[index:-1])
 
         return head
-
-
-
-# class Solution:
-#     def buildTree(self, inorder: List[int], postorder: List[int]) -> Optional[TreeNode]:
-#         # Map inorder values to their index for O(1) split
-#         index_map = {val: i for i, val in enumerate(inorder)}
-
-#         # Postorder pointer (start from the end)
-#         self.post_idx = len(postorder) - 1
-
-#         def build(left, right):
-#             # No nodes in this subtree
-#             if left > right:
-#                 return None
-
-#             # Last element in postorder is the root
-#             root_val = postorder[self.post_idx]
-#             self.post_idx -= 1
-
-#             root = TreeNode(root_val)
-
-#             # Root index in inorder
-#             mid = index_map[root_val]
-
-#             # IMPORTANT: build right subtree first (postorder = L, R, ROOT)
-#             root.right = build(mid + 1, right)
-#             root.left = build(left, mid - 1)
-
-#             return root
-
-#         return build(0, len(inorder) - 1)
